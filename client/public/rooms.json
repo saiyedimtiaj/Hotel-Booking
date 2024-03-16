@@ -1,0 +1,138 @@
+[
+  {
+    "location": "Gaular, Norway",
+    "title": "Breathtaking Mountain views in cozy Birdbox",
+    "price": 269,
+    "guests": 8,
+    "bedrooms": 4,
+    "status":"active",
+    "bathrooms": 3,
+    "description": "Enjoy the relaxed and comfortable enclosure of the Birdbox. Sleep right beside nature and its amazing  surroundings. Lay down and look at the spectacular mountains all around you. Put on your skis and have a breathtaking journey around the nearby trails. Hike down to Langelandsvatnet in the summer and enjoy swimming in energizing water. Your imagination is the limit for what you can experience.",
+    "image": "https://i.ibb.co/M6mBkXT/Avalon-Beach.webp",
+    "host": {
+      "name": "Atikul Islam Jisan",
+      "image": "https://i.ibb.co/W3KQg1K/profile.jpg",
+      "email": "atikjisan@gmail.com"
+    },
+    "category": "Beach"
+  },
+  {
+    "location": "Tambon Bo Nok, Thailand",
+    "title": "Beachfront Spacious 5BR Villa I Just Renovated",
+    "price": 965,
+    "guests": 13,
+    "bedrooms": 5,
+    "status":"active",
+    "bathrooms": 3,
+    "description": "Introducing VVH38.2, a luxurious beachfront villa in Kui Buri, perfect for those looking for a serene and relaxing vacation by the sea. With 5 spacious bedrooms and 6 en-suite bathrooms, this villa can accommodate up to 10 guests. The villa is directly located on the beach, providing an expansive outdoor area with a large grassy lawn perfect for playing games or lounging with loved ones. The beachfront is immaculate and serene, ideal for swimming and sunbathing.",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-896715066253376414/original/d6d1932c-3d2c-49ab-bf6f-a912c4d7fc92.jpeg?im_w=960",
+    "host": {
+      "name": "Atikul Islam Jisan",
+      "image": "https://i.ibb.co/W3KQg1K/profile.jpg",
+      "email": "atikjisan@gmail.com"
+    },
+    "category": "Beach"
+  },
+  {
+    "location": "Ernakulam, India",
+    "title": "Island Villa - Kadamakkudy",
+    "price": 191,
+    "guests": 12,
+    "bedrooms": 4,
+    "status":"active",
+    "bathrooms": 4,
+    "description": "Welcome to our humble islet residence, nestled in the tranquil backwaters of Kadamakkudy in Kerala. Surrounded by water on all sides, our four-bedroom house offers a unique and unforgettable experience for those seeking a peaceful retreat from city life.",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-849219248858074696/original/0d9e87f2-acb0-4367-abb1-6b4805fd219b.jpeg?im_w=960",
+    "host": {
+      "name": "Atikul Islam Jisan",
+      "image": "https://i.ibb.co/W3KQg1K/profile.jpg",
+      "email": "atikjisan@gmail.com"
+    },
+    "category": "Islands"
+  },
+  {
+    "location": "Gudauri, Georgia",
+    "title": "New Gudauri, Enjoy Gudauri, Loft 2, apt 131",
+    "price": 47,
+    "guests": 3,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "status":"active",
+    "description": "This is a fantastic ski Resort apartment for up to 3 people in New Gudauri. It is newly renovated and furnished. IN a very popular place, so called New Gudauri area(Redco hotel apts) Loft 2, room 131.The fast gondola is in about 50 meters to walk. The apartment has a kitchen with all amenities, bedding and towels are provided. Its a hotel apartment, 24 hour Front Desk and Security.",
+    "image": "https://a0.muscache.com/im/pictures/a0ed74e2-acea-488a-ba39-e3ec72afec43.jpg?im_w=960",
+    "host": {
+      "name": "Atikul Islam Jisan",
+      "image": "https://i.ibb.co/W3KQg1K/profile.jpg",
+      "email": "atikjisan@gmail.com"
+    },
+    "category": "Ski-in/out"
+  },
+  {
+    "location": "Canterbury, United Kingdom",
+    "title": "Bumble Barn at Great Field Farm",
+    "price": 305,
+    "guests": 6,
+    "bedrooms": 3,
+    "status":"active",
+    "bathrooms": 2,
+    "description": "Great Field Farm is set in 45 acres, including gardens, paddocks and the great field with different crops each year.\nBumble Barn is the newest addition to our eco-friendly  holiday lodges. Built to Passiv house standards with smart technology and a beautiful living sedum roof that bees love.\nThe views from the sitting room and patio over open fields and sky are stunning, with wildlife all around",
+    "image": "https://i.ibb.co/f1494DN/london.webp",
+    "host": {
+      "name": "Atikul Islam Jisan",
+      "image": "https://i.ibb.co/W3KQg1K/profile.jpg",
+      "email": "atikjisan@gmail.com"
+    },
+    "category": "Modern"
+  },
+  {
+    "title": "B&B Marrula - Suomuurain",
+    "location": "Europe, Finland",
+    "category": "Arctic",
+    "price": 54,
+    "image": "https://i.ibb.co/CJBJqqw/50668d00-094b-4bc7-afdf-497817167e40.webp",
+    "guests": 14,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "status":"active",
+    "description": "Green, beautiful Savola scenery by the lake. The heart of a house built in traditional style is the large logs that have been poured out of the local forest. Tears and mosaics are made of recycled materials and the surfaces have used breathable natural paints, paper plates, or untreated wood. The house is a long-standing dream designed by Marru herself. The different spaces are decorated with their own personal style.",
+    "host": {
+      "name": "Rafiqul Islam",
+      "image": "https://i.ibb.co/k2zrK81/istockphoto-1376142092-1024x1024.jpg",
+      "email": "rafiqul@gmail.com"
+    }
+  },
+  {
+    "title": "Villa Neve - New Mountain Villa in Vemdalen",
+    "location": "Europe, Sweden",
+    "category": "Arctic",
+    "price": 306,
+    "image": "https://i.ibb.co/LJvkpmr/083fc309-a7e8-42cf-a662-61ca2d4ecdc6.webp",
+    "guests": 12,
+    "bedrooms": 4,
+    "status":"active",
+    "bathrooms": 4,
+    "description": "New (finished dec 2021) mountain villa in Solbacken - Storhogna, Vemdalen. Direct access to Cross country ski tracks & Ski-in Ski-out reaching the slopes in Storhogna and Klövsjöfjäll through a connected route close to the villa. 15 minute car ride to Vemdalsskalet & 30 minutes to Björnrike. Panorama windows from floor to ceiling inviting the Storhogna mountain directly into the open plan kitchen and living room",
+    "host": {
+      "name": "Rafiqul Islam",
+      "image": "https://i.ibb.co/k2zrK81/istockphoto-1376142092-1024x1024.jpg",
+      "email": "rafiqul@gmail.com"
+    }
+  },
+  {
+    "title": "Fellsendi - Kirkjufell Paradise",
+    "location": "Europe, Iceland",
+    "category": "Beach",
+    "price": 757,
+    "image": "https://i.ibb.co/Hn95Mts/948c97f5-9705-4529-8dd4-046f9eb02847.webp",
+    "guests": 15,
+    "bedrooms": 6,
+    "status":"active",
+    "bathrooms": 5,
+    "description": "Fellsendi is a Country estate on the Snaefellsnes Peninsula 1 km west of the town of Grundarfjordur on the same plot of land as mount Kirkjufell and the beautiful Kirkjufellsfoss waterfall,fantastic natural hiking in all direction,good place to enjoy the Snaefellsnes peninsula for few days.",
+    "host": {
+      "name": "Rafiqul Islam",
+      "image": "https://i.ibb.co/k2zrK81/istockphoto-1376142092-1024x1024.jpg",
+      "email": "rafiqul@gmail.com"
+    }
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "roomId": "65e720bc7f4e535c42f6a0bb",
+    "location": "Europe, Iceland",
+    "startDate": "2023-10-23T18:00:00.000Z",
+    "endDate": "2023-10-25T18:00:00.000Z",
+    "totalPrice": 3785,
+    "bookingDate": "Oct 6, 2023",
+    "userName": "Shaida Sharmin",
+    "userEmail": "shaida206@gmail.com",
+    "userProfile": "https://i.ibb.co/fpRZxkM/medium-shot-woman-posing-indoors.jpg",
+    "roomImage": "https://i.ibb.co/Hn95Mts/948c97f5-9705-4529-8dd4-046f9eb02847.webp",
+    "host": "rafiqul@gmail.com"
+  },
+  {
+    "roomId": "65e720bc7f4e535c42f6a0bb",
+    "location": "Europe, Iceland",
+    "startDate": "2023-11-21T18:00:00.000Z",
+    "endDate": "2023-11-26T18:00:00.000Z",
+    "totalPrice": 4599,
+    "bookingDate": "Nov 14, 2023",
+    "userName": "Shaida Sharmin",
+    "userEmail": "shaida206@gmail.com",
+    "userProfile": "https://i.ibb.co/fpRZxkM/medium-shot-woman-posing-indoors.jpg",
+    "roomImage": "https://i.ibb.co/Hn95Mts/948c97f5-9705-4529-8dd4-046f9eb02847.webp",
+    "host": "rafiqul@gmail.com"
+  },
+  {
+    "roomId": "65e720bc7f4e535c42f6a0bb",
+    "location": "Europe, Iceland",
+    "startDate": "2023-12-12T18:00:00.000Z",
+    "endDate": "2023-12-15T18:00:00.000Z",
+    "totalPrice": 2609,
+    "bookingDate": "Dec 2, 2023",
+    "userName": "Dua Lipa",
+    "userEmail": "dualipa97@gmail.com",
+    "userProfile": "https://i.ibb.co/R7DKbn5/waist-up-shot-attractive-young-girlfriend-with-dark-straight-hair-soft-healthy-skin.jpg",
+    "roomImage": "https://i.ibb.co/Hn95Mts/948c97f5-9705-4529-8dd4-046f9eb02847.webp",
+    "host": "rafiqul@gmail.com"
+  },
+  {
+    "roomId": "65e720bc7f4e535c42f6a0bb",
+    "location": "Europe, Iceland",
+    "startDate": "2024-01-12T18:00:00.000Z",
+    "endDate": "2024-01-18T18:00:00.000Z",
+    "totalPrice": 6300,
+    "bookingDate": "Jan 11, 2024",
+    "userName": "Dua Lipa",
+    "userEmail": "dualipa97@gmail.com",
+    "userProfile": "https://i.ibb.co/R7DKbn5/waist-up-shot-attractive-young-girlfriend-with-dark-straight-hair-soft-healthy-skin.jpg",
+    "roomImage": "https://i.ibb.co/Hn95Mts/948c97f5-9705-4529-8dd4-046f9eb02847.webp",
+    "host": "rafiqul@gmail.com"
+  },
+  {
+    "roomId": "65e720bc7f4e535c42f6a0bb",
+    "location": "Europe, Iceland",
+    "startDate": "2024-02-23T18:00:00.000Z",
+    "endDate": "2024-02-25T18:00:00.000Z",
+    "totalPrice": 2899,
+    "bookingDate": "Feb 13, 2025",
+    "userName": "Shaida Sharmin",
+    "userEmail": "shaida206@gmail.com",
+    "userProfile": "https://i.ibb.co/fpRZxkM/medium-shot-woman-posing-indoors.jpg",
+    "roomImage": "https://i.ibb.co/Hn95Mts/948c97f5-9705-4529-8dd4-046f9eb02847.webp",
+    "host": "rafiqul@gmail.com"
+  }
+]
