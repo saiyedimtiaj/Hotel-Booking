@@ -1,6 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom'
 import GoogleLogin from '../../Component/Shered/GoogleLogin';
 import useAuth from '../../Hooks/useAuth';
+import { toast } from 'react-hot-toast';
 
 const Login = () => {
   const {signin} = useAuth();
@@ -14,6 +15,7 @@ const Login = () => {
     signin(email,password)
     .then(()=>{
       navigate('/')
+      toast.success('Sign In your account sucessfully')
     })
   }
     return (

@@ -46,7 +46,7 @@ const AddRooms = () => {
 
     axios
       .post(
-        "https://api.imgbb.com/1/upload?key=ca1e75a277bb15be2aa64bc489aa437b",
+        `https://api.imgbb.com/1/upload?key=${import.meta.env.VITE_Imgbb_Api_Key}`,
         payload
       )
       .then((res) => {

@@ -26,7 +26,7 @@ const Statistics = () => {
                         <p className="text-gray-500 font-medium text-lg">Total Revenue</p>
                         <h1 className="text-2xl font-bold">$ {revenue || 0}</h1>
                     </div>
-                </div>npm
+                </div>
                 <div className='flex bg-[#b4e3e7] px-4 py-3 rounded-md justify-between gap-4'>
                     <MdMeetingRoom className="text-4xl font-bold" />
                     <div className="text-right">

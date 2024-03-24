@@ -15,9 +15,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
-const stripePromise = loadStripe(
-  "pk_test_51OECa6JppFDY8B5jfeGOAt0HVDsH1z8BZu6NSWOsW99PJxw0EOfetFMN9MvhEsirRD6UHDNyKqotJ7V5bHqbmBc300bsjMYMxS"
-);
+const stripePromise = loadStripe(import.meta.env.VITE_Stripe_Publishable_Key);
 
 const BookingModal = ({
   open,
@@ -30,26 +28,26 @@ const BookingModal = ({
   totalPrice,
   id,
   host,
-  refetch
+  refetch,
 }) => {
-    const {user} = useAuth()
+  const { user } = useAuth();
   const handleClose = () => {
     setOpen(false);
   };
 
   const bookingInfo = {
-    roomId : id,
+    roomId: id,
     location,
     startDate: new Date(startDate),
     endDate: new Date(endDate),
     totalPrice,
-    bookingDate: moment().format('ll'),
-    userName:user?.displayName,
-    userEmail:user?.email,
-    userProfile:user?.photoURL,
-    roomImage:image,
-    host
-  }
+    bookingDate: moment().format("ll"),
+    userName: user?.displayName,
+    userEmail: user?.email,
+    userProfile: user?.photoURL,
+    roomImage: image,
+    host,
+  };
 
   return (
     <>
@@ -67,13 +65,18 @@ const BookingModal = ({
           <DialogContentText id="alert-dialog-slide-description">
             <Typography>Room: {title}</Typography>
             <Typography>Location: {location}</Typography>
-            <Typography  sx={{maxWidth:700}}>
+            <Typography sx={{ maxWidth: 700 }}>
               From: {startDate.slice(0, 15)} - To: {endDate.slice(0, 15)}
             </Typography>
             <Typography>Price: {totalPrice}</Typography>
           </DialogContentText>
           <Elements stripe={stripePromise}>
-            <Payment bookingInfo={bookingInfo} setOpen={setOpen} refetch={refetch} totalPrice={totalPrice} />
+            <Payment
+              bookingInfo={bookingInfo}
+              setOpen={setOpen}
+              refetch={refetch}
+              totalPrice={totalPrice}
+            />
           </Elements>
         </DialogContent>
       </Dialog>

@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBc05ShX_GvdY9onrtyXH3X3yogy1WRgI0",
-  authDomain: "hotel-booking-cab87.firebaseapp.com",
-  projectId: "hotel-booking-cab87",
-  storageBucket: "hotel-booking-cab87.appspot.com",
-  messagingSenderId: "196901232868",
-  appId: "1:196901232868:web:68896ed186b360c6f04cf1"
+  apiKey: import.meta.env.VITE_apiKey,
+  authDomain: import.meta.env.VITE_authDomain,
+  projectId: import.meta.env.VITE_projectId,
+  storageBucket: import.meta.env.VITE_storageBucket,
+  messagingSenderId: import.meta.env.VITE_messagingSenderId,
+  appId: import.meta.env.VITE_appId,
 };
 
 // Initialize Firebase

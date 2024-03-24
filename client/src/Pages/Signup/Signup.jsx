@@ -3,6 +3,7 @@ import GoogleLogin from "../../Component/Shered/GoogleLogin";
 import useAuth from "../../Hooks/useAuth";
 import axios from "axios";
 import useAxiosPublic from "../../Hooks/useAxiosPublic";
+import { toast } from "react-hot-toast";
 
 const Signup = () => {
   const { signup,profile } = useAuth();
@@ -22,7 +23,7 @@ const Signup = () => {
 
     axios
       .post(
-        "https://api.imgbb.com/1/upload?key=ca1e75a277bb15be2aa64bc489aa437b",
+        `https://api.imgbb.com/1/upload?key=${import.meta.env.VITE_Imgbb_Api_Key}`,
         payload
       )
       .then((response) => {
@@ -35,11 +36,13 @@ const Signup = () => {
               name: name,
               image:image,
               email:email,
-              role: 'user'
+              role: 'user',
+              createdAt : new Date()
             }
             axiosPublic.post('/users',userInfo)
             .then(()=>{
               navigate('/')
+              toast.success('Sign up your account sucessfully')
             })
           })
         })

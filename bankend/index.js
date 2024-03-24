@@ -8,7 +8,9 @@ const stripe = require("stripe")(process.env.STRIPE_PAYMENT_SECRET);
 
 //middleware
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin : ["https://mern-rms.netlify.app"]
+}));
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.xslrw3a.mongodb.net/?retryWrites=true&w=majority`;
 
@@ -120,9 +122,16 @@ async function run() {
     //user collection
 
     app.post("/users", async (req, res) => {
-      const body = req.body;
-      const result = await usersCollection.insertOne(body);
-      res.send(result);
+      const body = req.body
+      const filter = { email: req?.body?.email };
+      console.log(filter);
+     
+      const query = await usersCollection.findOne(filter);
+      if (query) {
+        return res.status(400).json({ message: "User with this email already exists" });
+      } 
+        const result = await usersCollection.insertOne(body);
+        res.send(result);
     });
 
     app.get("/users/:email", async (req, res) => {
