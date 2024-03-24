@@ -74,7 +74,7 @@ STRIPE_PAYMENT_SECRET = Your stripe payment secrate key
 nodemon index.js
 ```
 
-### Open Another Power 
+### Open Another Powershell
 ### Change Directory to Client
 
 ```shell
