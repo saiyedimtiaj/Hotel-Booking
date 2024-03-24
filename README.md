@@ -1,5 +1,5 @@
 # Full Stack Room Booking Website with MERN stack
-![Copy of Fullstack Twitter Clone (8)](https://i.ibb.co/9NZ6MTp/airbnb.png)
+![](https://i.ibb.co/9NZ6MTp/airbnb.png)
 
 Welcome to our Room Booking Website repository! Here you'll find everything you need to know about our platform, designed to provide users with a seamless booking experience.
 

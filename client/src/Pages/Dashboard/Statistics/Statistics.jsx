@@ -17,6 +17,8 @@ const Statistics = () => {
       const revenue = allInfo?.totalBookings?.reduce((price,item)=>price + item?.totalPrice,0)
       const activeRoom = allInfo?.rooms?.filter(room=>room.status == 'active')
       
+
+      
     return (
         <div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'>
